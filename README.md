@@ -3,7 +3,7 @@
 Two real-world engineering optimal problems are introduced to validate the effectiveness of PSO in solving real-world problems.
 ## a) Problem 1: Gear Train Design 
 Introduced in [55], the gear train design aims to optimize the gear ratio of a compound gear train involving three gears. The gear ratio is defined as the ratio of the angular velocity of the output shaft to that of the input shaft. The gear ratio n is formulated by
-n=X_1 X_2/X_3 X_4                   (1)
+n=X_1xX_2/X_3xX_4                   (1)
 where X_i∈[12,60],i=1,2,3,4. It is desired to achieve a gear ratio as close as possible to 1/6.931. Consequently, the objective function for optimizing the gear ration can be defined as
 minf(X)=(1/6.931-n)^2           (2)
 ## b) Problem 2: Parameter Estimation for Frequency-Modulated (FM) Sound Waves
