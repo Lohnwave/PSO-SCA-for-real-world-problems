@@ -29,7 +29,7 @@ func_number = 2
 Data1 = np.zeros((func_number, runs), dtype = float)
 Data2 = np.zeros((func_number, runs), dtype = float)
 f_mean = np.zeros((func_number,), dtype = float)
-def mian():
+def main():
     for i in range(0, func_number):
         print('problem: ', i)
         for j in range(0, runs):
@@ -40,4 +40,4 @@ def mian():
         print('Mean: %f\n' % f_mean[i])
 
 if __name__ == '__main__':
-    mian()
+    main()
