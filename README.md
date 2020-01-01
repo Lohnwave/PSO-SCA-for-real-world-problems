@@ -2,7 +2,7 @@
 
 Two real-world engineering optimal problems are introduced to validate the effectiveness of PSO in solving real-world problems.
 ## a) Problem 1: Gear Train Design 
-Introduced in [55], the gear train design aims to optimize the gear ratio of a compound gear train involving three gears. The gear ratio is defined as the ratio of the angular velocity of the output shaft to that of the input shaft. The gear ratio n is formulated by
+The gear train design aims to optimize the gear ratio of a compound gear train involving three gears. The gear ratio is defined as the ratio of the angular velocity of the output shaft to that of the input shaft. The gear ratio n is formulated by
 ```
 n=X1*X2/X3*X4.                   (1)
 ```
